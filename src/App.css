@@ -1,69 +1,6 @@
 /* App.css */
 
 /* Styles for screens larger than 1024px */
-@media screen and (min-width: 1025px) {
-  header {
-    width: 100%;
-    left: 0;
-    padding:15px;
-  }
-  .lowernavbar {
-    width: 100%;
-    left: 0;
-  }
-  .navbar {
-    width: 100%;
-  }
-}
-
-/* Styles for screens between 769px and 1024px (tablets) */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  header {
-    width: 100%;
-    left: 0;
-    padding: 15px;
-  }
-  .lowernavbar {
-    width: 100%;
-    left: 0;
-  }
-  .navbar {
-    width: 100%;
-  }
-}
-
-/* Styles for screens up to 768px (mobile devices) */
-@media screen and (max-width: 768px) {
-  header {
-    width: 100%;
-    left: 0;
-    padding: 15px;
-  }
-  .lowernavbar {
-    width: 100%;
-    left: 0;
-  }
-  .navbar {
-    width: 100%;
-  }
-  .handmade h2 {
-    left: 10px;
-    top: 3px;
-  }
-  .shopbycatogory {
-    width: 90%;
-    left: 5%;
-    font-size: 20px;
-    
-  }
-  .catogoriesitems {
-    top: 94%;
-  }
-  .undertext {
-    top: 335%;
-  }
-}
-
 #root {
   height: 3020px;
   text-align: center;
@@ -82,26 +19,6 @@ header{
   border-top-width:6px;
 
 }
-.lowernavbar{
-  position: absolute;
-  top: 70px;
-  height: 50px;
-  width:1519px;
-  background-color: rgba(55, 55, 80, 0.395);
-}
-.navbar{
-  width: 1519px;
-  height: 72px;
-  background-color: rgb(21, 20, 20);
-  display: inline-block;
-}
-.box{
-  background-color: azure;
-  height: 20px;
-  width: 20px;
-  padding: 30px;
-  margin: 10px;
-}
 
 header ul{
   display: inline-block;
@@ -114,7 +31,7 @@ header li{
   display: inline-block;
   margin: 0px 1px 1px 4px;
   padding: 5px 75px 5px 5px;
-
+  
 }
 header li:hover{
   color: rgb(8, 211, 211);

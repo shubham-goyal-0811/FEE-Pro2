@@ -8,33 +8,18 @@ function App() {
 
   return (
     <>
-      <div className='navbar'>
-        <div className='box'></div>
-        <div className='box'></div>
-        <div className='box'></div>
-        <div className='box'></div>
-        <div className='box'></div>
-        <div className='box'></div>
-
-
-      </div>
-
-      <div className='lowernavbar'>
-
-      </div>
       <header>
-        <div className='header'>
+        <div className='header bg-slate-950'>
           <ul>
             <li>Gifts</li>
             <li>Jewellery</li>
             <li>Home & Kitchen</li>
+            <li>Home & Kitchen</li>
+            <li>Wedding</li>
           
           </ul>
         </div>
       </header>
-      <div className='handmade'>
-        <h2>handmade</h2>
-      </div>
       {/* header section is finished here */}
 
       <div className='mothersdaygift'>
