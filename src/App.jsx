@@ -28,8 +28,7 @@ function App() {
             <li>Gifts</li>
             <li>Jewellery</li>
             <li>Home & Kitchen</li>
-            <li>Clothing, Shoes & Accessories</li>
-            <li>Wedding</li>
+          
           </ul>
         </div>
       </header>
